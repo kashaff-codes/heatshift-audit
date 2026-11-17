@@ -1,0 +1,26 @@
+{
+ "status": "Done",
+ "activity_id": "46e8f82d-eeda-46dd-991d-a0b85b8511c9",
+ "comparison": {
+  "default": {
+   "http": 200,
+   "latency_s": 5.07,
+   "response_bytes": 526061,
+   "result_keys": [
+    "map_data",
+    "stats_data"
+   ],
+   "result_preview": null
+  },
+  "links": {
+   "http": 200,
+   "latency_s": 0.72,
+   "response_bytes": 1055,
+   "result_keys": [
+    "map_download_url",
+    "stats_download_url"
+   ],
+   "result_preview": "{\"map_download_url\": \"https://tos-dashboard-prod.s3.amazonaws.com/enterprise_api/accountid%3Dacc%23wHUwYWxHBY/activity_id%3D46e8f82d-eeda-46dd-991d-a0b85b8511c9/mapping/data.json?<signed-query-redacted>\", \"stats_download_url\": \"https://tos-dashboard-prod.s3.amazonaws.com/enterprise_api/accountid%3Dacc%23wHUwYWxHBY/activity_id%3D46e8f82d-eeda-46dd-991d-a0b85b8511c9/mapping/stats.json?<signed-query-redacted>\"}"
+  }
+ }
+}

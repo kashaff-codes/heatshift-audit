@@ -1,0 +1,29 @@
+{
+ "endpoint": "/v1/satellite",
+ "request": {
+  "sat": {
+   "latitude": 33.43,
+   "longitude": -112.06
+  },
+  "date_time": {
+   "start_date": "2026-07-15",
+   "filter_type": 3,
+   "end_date": "2026-07-15"
+  },
+  "granularity": 100
+ },
+ "status": "Failed",
+ "activity_id": "d6620abe-7f64-418e-b321-c53be3897dca",
+ "latency_s": 132.62,
+ "submit_latency_s": 14.77,
+ "polls": 17,
+ "cached": false,
+ "error": "Activity Failed (no reason given by API)",
+ "result": null,
+ "raw_status": {
+  "activity_id": "d6620abe-7f64-418e-b321-c53be3897dca",
+  "status": "Failed",
+  "task_id": "98893d85-2bb9-4143-91f7-ea0c06453a88"
+ },
+ "note": "south Phoenix industrial point"
+}

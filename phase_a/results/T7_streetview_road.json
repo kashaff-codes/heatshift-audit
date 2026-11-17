@@ -1,0 +1,24 @@
+{
+ "endpoint": "/v1/streetview",
+ "request": {
+  "latitude": 33.456,
+  "longitude": -112.07399,
+  "vertical_angle": 0.0,
+  "horizontal_angle": 0.0,
+  "back_view": true
+ },
+ "status": "Failed",
+ "activity_id": "beab7227-c8ba-4d45-a3f7-9b6e04d31f7a",
+ "latency_s": 122.51,
+ "submit_latency_s": 12.73,
+ "polls": 16,
+ "cached": false,
+ "error": "Activity Failed (no reason given by API)",
+ "result": null,
+ "raw_status": {
+  "activity_id": "beab7227-c8ba-4d45-a3f7-9b6e04d31f7a",
+  "status": "Failed",
+  "task_id": "4aeaade5-a07d-4e92-b141-de3b396ae459"
+ },
+ "note": "Central Ave centreline, looking north + back"
+}

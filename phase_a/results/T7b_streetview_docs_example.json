@@ -1,0 +1,19 @@
+{
+ "endpoint": "/v1/streetview",
+ "request": {
+  "latitude": 40.7128,
+  "longitude": -74.006,
+  "vertical_angle": 10.0,
+  "horizontal_angle": 90.0,
+  "back_view": false
+ },
+ "status": "Rejected",
+ "http_status": 504,
+ "activity_id": null,
+ "error": "{'raw_text': 'upstream request timeout'} — the job may still have been created and charged; check credits before re-submitting (HTTP 504)",
+ "error_body": {
+  "raw_text": "upstream request timeout"
+ },
+ "latency_s": 142.12,
+ "note": "exact Python example from the docs (NYC)"
+}

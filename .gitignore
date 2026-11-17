@@ -1,0 +1,11 @@
+.env
+.venv/
+runs/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+scratch/
+
+*.log
+!phase_a/outage_probe.log

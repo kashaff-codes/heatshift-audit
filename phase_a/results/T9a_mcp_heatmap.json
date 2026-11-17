@@ -1,0 +1,125 @@
+{
+ "tool": "heatmap",
+ "args": {
+  "polygon_aoi": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      -112.0756167,
+      33.447051
+     ],
+     [
+      -112.0723833,
+      33.447051
+     ],
+     [
+      -112.0723833,
+      33.449749
+     ],
+     [
+      -112.0756167,
+      33.449749
+     ],
+     [
+      -112.0756167,
+      33.447051
+     ]
+    ]
+   ]
+  },
+  "date_time": {
+   "start_date": "2026-07-15",
+   "start_time": "15:00",
+   "filter_type": 1
+  },
+  "granularity": 100,
+  "analytic_type": "tcm"
+ },
+ "submit_latency_s": 8.73,
+ "submit_response": {
+  "ok": true,
+  "result": {
+   "tool": "heatmap",
+   "value": {
+    "status": "processing",
+    "message": "Your heatmap is being generated.",
+    "activity_id": "f8d11f5e-acbf-403c-8998-7d39445589cd"
+   },
+   "activity_id": "f8d11f5e-acbf-403c-8998-7d39445589cd",
+   "billing": {
+    "submission_kind": "new",
+    "credits_reserved_this_request": 4220
+   },
+   "evidence": [],
+   "warnings": []
+  },
+  "trace": {
+   "trace_id": "3292e39d40f5",
+   "tool": "heatmap",
+   "plan_type": "premium",
+   "decision": "allow",
+   "status": "ok",
+   "latency_ms": 7576,
+   "cost_credits": 4220
+  }
+ },
+ "reads": [
+  {
+   "t": 12.6,
+   "latency_s": 2.6,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"heatmap_read\", \"value\": {\"status\": \"processing\", \"heatmap_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"message\": \"The heatmap exists, but its statistics are still being processed.\"}, \"heatmap_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"activity_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"b487b380f697\", \"tool\": \"heatmap_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 577, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 25.6,
+   "latency_s": 3.0,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"heatmap_read\", \"value\": {\"status\": \"processing\", \"heatmap_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"message\": \"The heatmap exists, but its statistics are still being processed.\"}, \"heatmap_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"activity_id\": \"f8d11f5e-acbf-403c-8998-7d39445589cd\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"785d8dfb3881\", \"tool\": \"heatmap_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1080, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 38.8,
+   "latency_s": 3.18,
+   "state": "completed",
+   "is_error": false,
+   "body": {
+    "ok": true,
+    "result": {
+     "tool": "heatmap_read",
+     "value": {
+      "status": "completed",
+      "heatmap_id": "f8d11f5e-acbf-403c-8998-7d39445589cd",
+      "temperature_unit": "celsius",
+      "stats": {
+       "temperature_stats": {
+        "minimum_celsius": 40.78,
+        "maximum_celsius": 40.78,
+        "mean_celsius": 40.78,
+        "standard_deviation_celsius": 0.0
+       }
+      },
+      "mean_temperature_celsius": 40.78
+     },
+     "heatmap_id": "f8d11f5e-acbf-403c-8998-7d39445589cd",
+     "activity_id": "f8d11f5e-acbf-403c-8998-7d39445589cd",
+     "evidence": [],
+     "warnings": []
+    },
+    "trace": {
+     "trace_id": "a068c997fd27",
+     "tool": "heatmap_read",
+     "plan_type": "premium",
+     "decision": "allow",
+     "status": "ok",
+     "latency_ms": 1579,
+     "cost_credits": 0
+    }
+   }
+  }
+ ],
+ "activity_id": "f8d11f5e-acbf-403c-8998-7d39445589cd",
+ "status": "completed",
+ "latency_s": 47.5
+}

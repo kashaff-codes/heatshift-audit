@@ -1,0 +1,168 @@
+{
+ "tool": "report",
+ "args": {
+  "latitude": 33.4484,
+  "longitude": -112.074,
+  "temperature": 105,
+  "date": "2026-07-15",
+  "analysis": [
+   "environmental",
+   "urban"
+  ]
+ },
+ "submit_latency_s": 14.26,
+ "submit_response": {
+  "ok": true,
+  "result": {
+   "tool": "report",
+   "value": {
+    "status": "processing",
+    "message": "Your Heat Intelligence report is being generated.",
+    "activity_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+    "report_url": null,
+    "docx_url": null,
+    "data_uri": null,
+    "data_url": null
+   },
+   "activity_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+   "evidence": [],
+   "warnings": []
+  },
+  "trace": {
+   "trace_id": "6f6e7db9a63e",
+   "tool": "report",
+   "plan_type": "premium",
+   "decision": "allow",
+   "status": "ok",
+   "latency_ms": 13338,
+   "cost_credits": 8600
+  }
+ },
+ "reads": [
+  {
+   "t": 24.3,
+   "latency_s": 4.34,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"6d1992da4a99\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1254, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 48.0,
+   "latency_s": 3.68,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"cef95bc3b63d\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 973, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 72.7,
+   "latency_s": 4.67,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"d45d3b2b6335\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 693, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 97.3,
+   "latency_s": 4.61,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"84c05c77ff59\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1934, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 122.3,
+   "latency_s": 5.03,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"90470b83b227\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1260, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 145.3,
+   "latency_s": 2.96,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"8a9880d5d71f\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 725, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 168.0,
+   "latency_s": 2.65,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"e2fa8557c89d\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 743, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 192.6,
+   "latency_s": 4.62,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"cfd35532b4e3\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 2422, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 216.3,
+   "latency_s": 3.77,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"d8d50f19443e\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1237, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 239.4,
+   "latency_s": 3.04,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"b6f8a096365b\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1147, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 262.9,
+   "latency_s": 3.5,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"c2488ca6a226\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1223, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 287.1,
+   "latency_s": 4.2,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"95f41dfd0292\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 873, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 310.5,
+   "latency_s": 3.41,
+   "state": "processing",
+   "is_error": false,
+   "body": "{\"ok\": true, \"result\": {\"tool\": \"report_read\", \"value\": {\"status\": \"processing\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"message\": \"The report is still being processed.\"}, \"activity_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"analytics_id\": \"72b9e4bb-f3a9-4e74-ae23-cf1a14054253\", \"evidence\": [], \"warnings\": []}, \"trace\": {\"trace_id\": \"59d0a81e08ae\", \"tool\": \"report_read\", \"plan_type\": \"premium\", \"decision\": \"allow\", \"status\": \"ok\", \"latency_ms\": 1056, \"cost_credits\": 0}}"
+  },
+  {
+   "t": 335.0,
+   "latency_s": 4.48,
+   "state": "completed",
+   "is_error": false,
+   "body": {
+    "ok": true,
+    "result": {
+     "tool": "report_read",
+     "value": {
+      "status": "completed",
+      "analytics_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+      "result_id": null,
+      "report_url": "https://tos-dashboard-prod.s3.amazonaws.com/enterprise_api/v2/accountid%3Dacc%23wHUwYWxHBY/type%3Denterprise_api/activity_id%3D72b9e4bb-f3a9-4e74-ae23-cf1a14054253/data.pdf?<signed-query-redacted>"
+     },
+     "activity_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+     "analytics_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+     "evidence": [],
+     "warnings": []
+    },
+    "trace": {
+     "trace_id": "d11ceb856e23",
+     "tool": "report_read",
+     "plan_type": "premium",
+     "decision": "allow",
+     "status": "ok",
+     "latency_ms": 2164,
+     "cost_credits": 0
+    }
+   }
+  }
+ ],
+ "activity_id": "72b9e4bb-f3a9-4e74-ae23-cf1a14054253",
+ "status": "completed",
+ "latency_s": 349.2
+}

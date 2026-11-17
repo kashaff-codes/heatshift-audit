@@ -1,0 +1,44 @@
+{
+ "endpoint": "/v1/env_params",
+ "request": {
+  "latitude": 33.4484,
+  "longitude": -112.074,
+  "date_time": {
+   "start_date": "2026-07-15",
+   "filter_type": 1,
+   "start_time": "15:00",
+   "end_date": "2026-07-15"
+  }
+ },
+ "status": "Rejected",
+ "http_status": 422,
+ "error": "Field 'temperature' is required. (HTTP 422)",
+ "error_body": {
+  "error": true,
+  "status_code": 422,
+  "message": "Field 'temperature' is required.",
+  "field": "temperature",
+  "detail": [
+   {
+    "type": "missing",
+    "loc": [
+     "body",
+     "temperature"
+    ],
+    "msg": "Field required",
+    "input": {
+     "latitude": 33.4484,
+     "longitude": -112.074,
+     "date_time": {
+      "start_date": "2026-07-15",
+      "filter_type": 1,
+      "start_time": "15:00",
+      "end_date": "2026-07-15"
+     }
+    }
+   }
+  ]
+ },
+ "latency_s": 5.24,
+ "note": "temperature omitted (should be 400)"
+}

@@ -1,0 +1,29 @@
+{
+ "endpoint": "/v1/satellite",
+ "request": {
+  "sat": {
+   "latitude": 33.4484,
+   "longitude": -112.074
+  },
+  "date_time": {
+   "start_date": "2026-07-15",
+   "start_time": "15:00",
+   "filter_type": 1
+  }
+ },
+ "status": "Failed",
+ "activity_id": "3d475e91-393f-445d-8aca-8a94a17de74f",
+ "latency_s": 282.73,
+ "submit_latency_s": null,
+ "polls": 5,
+ "cached": false,
+ "error": null,
+ "result": null,
+ "raw_status": {
+  "activity_id": "3d475e91-393f-445d-8aca-8a94a17de74f",
+  "status": "Failed",
+  "task_id": "c1cd22a3-71a4-43ef-a5ca-c2e3db58bf27"
+ },
+ "note": "downtown Phoenix, filter_type 1, default granularity",
+ "resumed_after_outage": true
+}
